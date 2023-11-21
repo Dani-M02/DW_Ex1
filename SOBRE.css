@@ -27,16 +27,16 @@
         text-align: center;
         position: relative;
         display: block;
-        left: 21.5%;
-        top: 18%;
+        left: 18%;
+        top: 15%;
         width: 60%;
-        font-size: 14pt;
+        font-size: 12pt;
         
     }
     
     #titulo1{
         position: relative;
-        left: 43%;
+        left: 40%;
         top: 15%;
         font-size: 30pt;
     }
