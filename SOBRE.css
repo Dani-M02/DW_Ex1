@@ -1,0 +1,166 @@
+@media screen and (max-width: 1920px) {
+   
+    body{
+        background-image: url('IMG/AAAA/wall.png');
+        background-size: cover;
+        color: white;
+        font-family: "Comico";
+        cursor: url('IMG/rato-01.png'), default;
+       height: 100%;
+       overflow: hidden;
+    }
+    
+        /*SOBRE*/
+    
+    #content1{
+        position: absolute;
+        background-image: url("IMG/back.jpg");
+        top: 15vh;
+        left: 35vh;
+        width: 70%;
+        height: 75%;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0);
+    }
+    
+    #content1 text{
+        font-family: 'Roboto Light', sans-serif;
+        text-align: center;
+        position: relative;
+        display: block;
+        left: 21.5%;
+        top: 18%;
+        width: 60%;
+        font-size: 14pt;
+        
+    }
+    
+    #titulo1{
+        position: relative;
+        left: 43%;
+        top: 15%;
+        font-size: 30pt;
+    }
+    
+    #back1{
+        position: relative;
+        left:47%;
+        top: 25%;
+        width:5%;
+        height: 10%;
+        cursor: url('IMG/rato-02.png'), pointer;
+    }
+    
+    .draggable {
+        position: absolute;
+        display: flex;
+        width: 25%;
+        height: 55%;
+        user-select: none;
+    }
+    
+    #img1{
+        top: 5%;
+        left: 6%;
+    }
+    
+    #img2{
+        top: 35%;
+        left: -3%;
+    }
+    
+    #img3{
+        top: 5%;
+        right:0;
+    }
+    
+    #img4{
+        top: 40%;
+        right: -1%;
+    }
+    
+
+    }
+    
+    @media screen and (max-width: 780px) {
+    
+      body{
+        background-image: url('IMG/AAAA/wall.png');
+        background-size: cover;
+        color: white;
+        font-family: "Comico";
+        cursor: url('IMG/rato-01.png'), default;
+       height: 100%;
+       overflow: hidden;
+    }
+    
+    
+    /*SOBRE*/
+    
+    #content1{
+        position: absolute;
+        background-image: url("IMG/back.jpg");
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0);
+    }
+    
+    #content1 text{
+        font-family: 'Roboto Light', sans-serif;
+        position: relative;
+        display: block;
+        left: 10%;
+        top: 8%;
+        width: 80%;
+        font-size: 12pt;
+        
+    }
+    
+    #titulo1{
+        position: relative;
+        left: 35%;
+        top: 5.5%;
+    }
+    
+    #back1{
+        position: relative;
+        left: 40%;
+        top: 11%;
+        width:15%;
+        height: 10%;
+        cursor: url('IMG/rato-02.png'), pointer;
+    }
+    
+    .draggable {
+        position: absolute;
+        display: flex;
+        width: 50%;
+        height: 30%;
+    }
+    
+    #img1{
+        top: 2%;
+        left: 0%;
+    }
+    
+    #img2{
+        top: 25%;
+        left: -20%;
+    }
+    
+    #img3{
+        top: 75%;
+        left: -10%;
+    }
+    
+    #img4{
+        top: 70%;
+        right: -1%;
+    }
+    
+   
+    
+    
+    
+    }
